@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    font-family:'Trebuchet MS', Helvetica, sans-serif;
+    font-size: 12px; 
+    line-height: 2;
+} 
+@media (min-width: 1200px){
+    .container {
+        max-width: 1200px;
+    }
+}  
+@media (min-width: 992px) {
+    .container {
+        max-width: 992px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }  
+}
+@media (min-width: 576px) {
+    .container {
+        max-width: 576px;
+    }
+}
+.container{
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 100%;
+}
+
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 0;
+    justify-content: center;
+}
+
+.top{
+    flex: 0 0 auto;
+    width: auto;
+}
+
+.topImg{
+    width: 100%;
+    height: auto; 
+}
+
+.img{
+    width: 400px; 
+    object-fit: contain ; 
+}
+
+.topp{
+    width: 100%;
+    height: auto; 
+    margin: 0 70px;
+}
+.topp p{  
+    color: #000;
+    text-align: center;
+    margin: 15px auto;
+}
+
+.topp h3{
+    color: rgb(255, 0, 0);
+    text-align: center;
+    margin: 5px auto;
+}
+.topp hr{
+    margin: 0;
+}
+
+.alt{
+    flex: 0 0 auto;
+    width: auto;
+}
+.altSosyal{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.altLogo{
+    display: flex;
+}
+.altImg{
+   display: flex;
+}
+
+.altSosyalIcon{ 
+    margin: 5px 10px 0 5px;
+}
+.altSosyalIcon img{ 
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 5px;
+}
+.altDetay{
+    display: flex; 
+    justify-content: center;
+    margin: 5px 0 10px 0;
+}
+.altDetay p{
+    margin: 0;
+}
+.altDetay p span{
+    font-weight: bold;
+}
