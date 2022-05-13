@@ -22,7 +22,18 @@
 }
 @media (min-width: 576px) {
     .container {
-        max-width: 576px;
+        max-width: 500px;
+    } 
+}
+@media (max-width: 575px) {
+    .container {
+        max-width: 300px;
+    }
+    .topImg .img {
+        max-width: 300px;
+    }
+    .topp{
+        margin: 0;
     }
 }
 .container{
@@ -34,7 +45,7 @@
 .wrapper{
     display: flex;
     flex-wrap: wrap;
-    margin: 10px 0;
+    margin: 10px -30px;
     justify-content: center;
 }
 
@@ -49,14 +60,14 @@
 }
 
 .img{
-    width: 400px; 
+    width: 550px; 
     object-fit: contain ; 
 }
 
 .topp{
     width: 100%;
     height: auto; 
-    margin: 0 70px;
+    margin: 0 15px;
 }
 .topp p{  
     color: #000;
